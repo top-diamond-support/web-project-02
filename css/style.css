@@ -1,0 +1,1446 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Verdana','Hiragino Snas','Meiryo',sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+#f_syodou{
+    background-size: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    color:white;
+    width: 100%;
+    bottom: 0;
+    background-image: url(../images/footerbackBL.png);
+}
+
+#f_story{
+    background-image: url(../images/footerback4.png); 
+    background-size: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer .push {
+  height: 80px;
+}
+
+#kansentitle{
+    height: 150px;
+    font-size:36px;
+    line-height: 2.5;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+}    
+
+#kansentitle{
+    text-align: center;
+}
+
+#copyright{
+    text-align: center;
+}
+
+#pagetop{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+section h3{
+    font-size: 24px;
+    font-weight: bold;  
+    margin-bottom: 12px;
+}
+
+#bckyocera{
+    width: 100%;
+    position: relative;
+}
+
+#thinking{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/kyocerahomeb.png);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+#youtube{
+    width: 60vw;
+    height: 70vh;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+#header_story{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#top_story{
+    margin-bottom: 0; 
+    display: block;
+}
+
+#img_kansenkai{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header .homenav ul li,  a:hover{
+    text-decoration: underline solid;
+}
+
+.storynav ul li{
+    margin: 0;
+    padding: 0;
+}
+
+.homenav ul, .contactnav ul, .storynav ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: #2c15bf;
+    color: white;
+    align-self: center;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    padding-top: 34px;
+}
+
+#kansenkaibc{
+    width: 100%;
+    /* position: relative; */
+    padding-top: 0px;
+}
+
+#kansenkai{
+    width: 100%;
+    height: 100vh;
+    padding-left: 400px;
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#kansenkai h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+#kansenkai p{
+    margin-bottom: 30px;
+}
+
+#kuwa{
+    margin-left: 80px;
+}
+
+.wrap{
+    display: flex;
+}
+
+.parent1{
+    position: relative;
+    width: 720px;
+    margin-left: 700px;
+    margin-top: 0px;
+    margin-bottom: 250px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.child1{
+    position: absolute;
+    display: flex;
+    width: 720px;
+    height: 480px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    left: -600px;
+    top: 100px;
+    margin-bottom: 100px;
+}
+
+.parent2{
+    position: relative;
+    width: 720px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 300px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.child2{
+    position: absolute;
+    width: 730px;
+    height: 480px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    left: 600px;
+    top: 100px;
+    margin-bottom: 100px;
+}
+
+.parent3{
+    position: relative;
+    width: 720px;
+    margin-left: 700px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.child3{
+    position: absolute;
+    width: 730px;
+    height: 440px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    left: -600px;
+    top: -70px;
+    margin-bottom: 100px;
+}
+
+.parent4{
+    position: relative;
+    width: 890px;
+    height: 580px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 350px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.child4{
+    position: absolute;
+    width: 730px;
+    height: 580px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    left: 600px;
+    top: 120px;
+    margin-bottom: 100px;
+}
+
+.parent5{
+    position: relative;
+    width: 720px;
+    margin-left: 530px;
+    margin-top: 80px;
+    margin-bottom: 180px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.child5{
+    position: absolute;
+    display: flex;
+    width: 730px;
+    height: 650px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    left: -430px;
+    top: -150px;
+    margin-bottom: 400px;
+}
+
+article{
+    background-image: url(../images/hotmottoSunset3.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    padding-bottom: 160px;
+}
+
+#pic6{
+    padding-top: 170px;
+}
+
+#pic1{
+    padding-top: 150px;
+}
+
+#pagetop{
+    text-decoration: underline solid;
+}
+
+.syodounav ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+.syo_title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.syo_para1{
+    margin-left: 300px;
+}
+
+#para_ohtani{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+}
+
+.syo_stc2 #ohtani{
+    position: absolute;
+}
+
+.syo_stc2{
+    padding-top: 60px;
+    margin-left: 120px;
+}
+
+#syo_B{
+    margin-top: 40px;
+}
+
+#syo_C{
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+#ohtani{
+    margin-left: 45px;
+}
+
+.syo_para2{
+    margin-left: 350px;
+}
+
+#hoka{
+    margin-top: 100px;
+}
+
+#syo_wrap1{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.syo_4-1{
+    margin-bottom: 20px;
+}
+
+.syo_4-2{
+    margin-bottom: 20px;
+}
+
+#kimetu #osi #jujutu{
+    position: absolute;
+}
+
+#kimetu{
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+#osi{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#jujutu{
+    margin-left: 50px;
+}
+
+#titlestc{
+    margin-left: 60px;
+    margin-top: 10px;
+}   
+
+#syo_wrap2{
+    display: flex;
+    position: relative;
+}
+
+#a-nya #spyfd{
+    position: absolute;
+}
+
+#a-nya{
+    margin-left: 450px;
+    margin-right: 100px;
+}
+
+#spyfd{
+    margin-left: 100px;
+}
+
+#spyf{
+    padding-top: 300px;
+    margin-left: -380px;
+}
+
+.syo_para3{ 
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#syo_wrap3{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+}
+
+#oiwai #wedding{
+    position: absolute;
+}
+
+#oiwai{
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+#wedding{
+    margin-left: 0px;
+}
+
+#syo_bun1{
+    padding-bottom: 50px;
+}
+
+#syo_bun2{
+    margin-bottom: 70px;
+}
+
+.syo_para4{
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+.syo_para5{
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.syo_para6{
+    margin-top: 80px;
+    text-align: center;
+}
+
+#YTtitle h3{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-size: 32px;
+}
+
+#tyuu{
+    margin-left: 120px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#YTlink{
+    margin-left: 0px;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+#YTtitleBs{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#YTarigatouBs{
+    text-align: center;
+}
+
+.YTsyo_long{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+#YTarigatouBs{
+    margin-left: 370px;
+}
+
+#YTyuusyoukinenn{
+    margin-left: 150px;
+}
+
+#animetitle{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.YTshorts1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.YTshorts2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+#YouTube{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.index1, .index2, .index3{
+    display: flex;
+    margin-top: 96px;
+}
+
+.index1, .index2, .index3 p{
+    font-size: 19px;
+}
+
+.index2{
+    background-color: white;
+}
+
+.ind1_story{
+    margin-left: 120px;
+    font-size: 25px;
+    font-weight: balder;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    text-decoration: underline solid black;
+}
+
+.ind3_syodou{
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: balder;
+    padding-top: 56px;
+    margin-bottom: 50px;
+    text-decoration: underline solid black;
+}
+
+.ind2_kansen{
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: balder;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    text-decoration: underline solid black;
+}
+
+#tit_story{
+    margin-left:216px
+}
+
+#tit_syodou{
+    margin-left: 216px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#tit_story, #tit_kansenkai, #tit_syodou{
+    width: 600px;
+    height: 560px;
+    box-shadow: 0 0px 7px #aaa;
+}
+
+#tit_kansenkai{
+    padding-left: 100px;
+    margin-left: -50px;
+}
+
+#story_pic{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    transform: translateX(-50px);
+}
+
+#p_syodou{
+    margin-right: 100px;
+    padding-right:20px;
+}
+
+#p_syodou, #p_syodou2{
+    margin-bottom: 20px;
+}
+
+#p_syodou3{
+    margin-bottom: 10px;
+}
+
+#p_story1{
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+#p_story2{
+    margin-bottom: 32px;
+    margin-left: 90px;
+}
+
+#p_story3{
+    margin-bottom: 32px;
+    padding-bottom: 0;
+    margin-left: 90px;
+} 
+
+#p_story4{
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    margin-left: 90px;
+} 
+
+#p_story5{
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-left: 90px;
+} 
+
+#p_kansen1{
+    margin-bottom: 20px;
+}
+
+#p_kansen2{
+    margin-bottom: 10px;
+}
+
+.ind3_syodou h2{
+    margin-left: 115px;
+    margin-right: 10px;
+}
+
+.ind1_story h2{
+    margin-right: 5px;
+}
+
+body #home{
+    background-image: url(../images/23220992.jpg);
+    background-repeat: repeat;
+}
+
+#kans_pic{
+    margin-top: 232px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    transform: translateX(40px);
+}
+
+#ind_syopic{
+    margin-top:130px;
+    margin-bottom: 150px;
+    transform: translateX(-40px);
+}
+
+#cam_title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    color: white;
+}
+
+#campaign p{
+    color: white;
+}
+
+#cam_titlepic{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+#campaign{
+    background-color: rgb(146, 138, 138);
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: auto;
+}
+
+.cam1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cam2{
+    padding-left: 330px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.cam3, .cam4, .cam5, .cam6{
+    text-align: center;
+}
+
+.cam3{
+    margin-bottom:20px
+}
+
+.cam4, .cam5{
+    margin-bottom: 15px;
+}
+
+.underline{
+    text-decoration: underline double white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.form{
+    margin-top: 30px;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    border: 1px solid #f1f8f9;
+    background-color:white;
+    width: 100%;
+    margin-top: 5px;
+    padding: 4px 8px;
+}
+
+textarea{
+    height: 200px;
+}
+
+.submitBtn{
+    margin-left: 100px;
+}
+
+input[type="submit"]{
+    background-color:red;
+    border: solid white 2px;
+    color: white;
+    margin-top: 22px;
+    padding: 12px 60px;
+} 
+
+.button1{
+    margin-top: 48px;
+}
+
+.button2 {
+    margin-top: 80px;
+}
+
+.button3{
+    margin-top: 72px;
+}
+
+.button1{
+    margin-left: 200px;
+}
+
+.button2{
+    margin-left: 120px;
+}
+
+.button3{
+    margin-left: 160px;
+}
+
+#f_home,#f_contact{
+    background-image: url(../images/footerback4.png);
+    background-size: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+.Btn_kansenkai{
+    display:inline-block;
+    background-color: #2c15bf;
+    text-decoration: none;
+    color: white;
+    width: 18em;
+    height:3em;
+    padding-top: 8px;
+    padding-left: 48px;
+    border:solid 1px rgb(215, 214, 214);
+    margin-left: 190px;
+    margin-bottom: 240px;
+}
+
+#stc1 p{
+    margin-bottom: 19px;
+}
+
+#stc1 {
+    padding-top: 0px;
+}
+
+.child2 p{
+    margin-bottom: 20px;
+}
+
+.child2 h3{
+    margin-bottom: 30px;
+}
+
+.child3 p{
+    margin-bottom: 24px;
+}
+
+.child4 p, #stc2 p{
+    margin-bottom: 20px;
+}
+
+.kansenkai2025 h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.kansenkai2025 p{
+    font-size: 22px;
+}
+
+.kans1{
+    margin-left: 328px;
+    margin-bottom: 40px;
+}
+
+.kans2{
+    margin-left: 328px;
+    margin-bottom: 40px;
+}
+
+.kans3, .kans4{
+    margin-bottom: 40px;
+    margin-left: 328px;
+}
+
+.kansenrule{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+#tit_rule h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.mousikomi p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.link{
+    display: flex;
+}
+
+#iconyajirusi{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 22px;
+}
+
+#yajirusi{
+    margin-top: 20px;
+    padding-left: 200px;
+    margin-bottom: 30px;
+}
+
+#dai_icon{
+    padding-top: 0px;
+    margin-left: 280px;
+}
+
+.cal_link p{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 220px;
+}
+
+.Buffaloes{
+    margin-left: 110px;
+}
+
+.link{
+    margin-bottom: 100px;
+}
+
+.list{
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+.kakaku{
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.otoku, .toiawasete{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 110px;
+}
+
+.Btn_campaign{
+    text-decoration: none;
+    font-size: large;
+    margin-top: 80px;
+}
+
+.Btn_campaign a{
+    padding: 12px 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(181, 175, 175);
+    font-weight: bald;
+    margin-left: 320px;
+}
+
+#withbell,#kans_pic,#ind_syopic{
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width:640px){
+  nav ul, 
+  nav li, 
+  nav a {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+    color: #000 !important;
+    text-decoration: none;
+  }
+
+.index1, .index2, .index3{
+    display: block;
+    margin-top: 8px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#tit_story{
+    width: 370px;
+    height: 424px;
+    margin-left: 2px;
+    padding-left: 0; 
+    margin-bottom: 4px;
+}
+
+#tit_kansenkai, #tit_syodou{
+    width: 370px;
+    height: 380px;
+    margin-left: 2px;
+    padding-left: 0; 
+    margin-bottom: 4px;
+}
+
+.ind1_story, .ind2_kansen, .ind3_syodou{
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 32px;
+}
+
+#p_story1, #p_story2, #p_story3,#p_story4,#p_story5{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.button1,.button2,.button3{
+    margin-left: 96px;
+}
+
+#withbell{
+    width: 375px;
+    height: 473px;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+#story_pic{
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+#kans_pic{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding-left: -50px;
+}
+
+#kansenkai_pic{
+    width: 373px;
+    height: 231px;
+    padding-left: 2px;
+    margin-left: -40px;
+}
+
+.ind2_kansen{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+#p_kansen1, #p_kansen2{
+    padding-left: 40px;
+}
+
+.ind3_syodou{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#p_syodou,#p_syodou2,#p_syodou3{
+    margin-right: 0px;
+}
+
+#ind_syopic{
+    width: 100vw;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+#f_home{
+    margin-top: 0;
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+#bckyocera{
+    width: 100vw;
+    background-size: cover;
+}
+
+#YUtop{
+    width: 90%;
+    height:60%;
+    left: 20px
+}
+
+.child1, .child2, .child3, .child4, .child5{
+    position: initial;
+    display: block;
+    margin-left: 0;
+    width: 375px;
+    padding-left: 2px;
+    margin-bottom: 0;
+}
+
+.child1{
+    height: 630px;    
+}
+
+.wrap{
+    display: block;
+}
+
+article{
+    background-image: none;
+    background-color: azure;
+}
+
+#kansentitle{
+    height: 100px;
+}
+
+#kansentitle h1,.child2 h3, .child3 h3, .child4 h3, #kansenkai h2{
+    font-size: 18px;
+}
+
+#stc2 h3{
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+.child2 h3{
+    margin-left: 55px;
+}
+
+.child3 h3{
+    margin-left: 115px;
+}
+
+.child4 h3{
+    margin-left: 100px;
+}  
+
+.child4{
+    height: 530px;
+}
+
+.child5{
+    height: 700px;
+}
+
+#kyoceradome, #beforervic, #Victory, #douage{
+    width: 375px;
+    height:250px;
+    margin-left: 0;
+}
+
+.parent1, .parent2, .parent3, .parent4, .parent5{
+    margin-left: auto;
+    height: 750px;
+    width: 375px;
+}
+
+.parent1{
+    margin-bottom: 150px;
+}
+
+.parent2, .parent3{
+    margin-bottom: 10px;
+}
+
+.parent3{
+    height:700px;
+}
+
+.parent4{
+    margin-bottom: 50px;
+}
+
+#pic1{
+    padding-top: 0px;
+    margin-left: 100px;
+}
+
+#stc1 p, .child2 p, .child3 p, .child4 p{
+    font-size: 14px;
+}
+
+#stc2 p{
+    font-size: 13px;
+}
+
+#pic6{
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+#kansenkai{
+    padding-left: 3px;
+    margin-top: 10px;
+}
+
+#kansenkai h2{
+    margin-left: 40px;
+    padding-left: 10px;
+}
+
+#kansenkai p{
+    font-size: 15px;
+}
+
+#kansenkaibc{
+    height: 900px;
+}
+
+.Btn_kansenkai a{
+    text-align: center;
+}
+
+#f_home, #f_contact{
+    background-image: none; 
+    background-color: #2c15bf;
+}
+
+#kuwa{
+    padding-left: 120px;
+}
+
+.kansenkai2025 h1{
+    font-size: 20px;
+}
+
+.kans2, .kans3, .kans4{
+    margin-left: 1px;
+}
+
+.kansenkai2025 p{
+    font-size: 18px;
+}
+
+.kansenrule{
+    display: block;
+    margin-left: 0;
+}
+
+#OrixBuffaloes, #mesi{
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.mousikomi ul li{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.link{
+    display: block;
+    margin-bottom: 0;
+}
+
+#iconyajirusi{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#yajirusi{
+    padding-left: 0px;
+    margin-left: 154px;
+}
+
+#dai_icon{
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+.Buffaloes{
+    margin-left: 0;
+}
+
+#mesi{
+    margin-bottom: 0;
+}
+
+.syodounav ul{
+    display: block;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.syodounav ul li{
+    margin-bottom: 14px;
+} 
+
+.syo_para1, .syo_para2, .syo_para3, .syo_para4, .syo_para5{
+    margin-left: 0;
+    padding-left: 0px;
+}
+
+#para_ohtani, #syo_wrap1, #syo_wrap2, #syo_wrap3, #YouTube, .YTsyo_long, .YTshorts1 ul, .YTshorts2 ul{
+    display: block;
+}
+
+#ohtani{
+    margin-left: 30px;
+}
+
+.syo_stc2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#hoka{
+    margin-top: 40px;
+}
+
+#kimetu, #osi, #jujutu, #a-nya, #spyfd{
+    margin-left: 85px;
+}
+
+#titlestc{
+    margin-bottom: 20px;
+}
+
+#syo_wrap2{
+    padding-left: 0;
+}
+
+#a-nya{
+    margin-bottom: 40px;
+}
+
+#spyf{
+    color: white;
+    padding-top: 40px;
+    width: 375px;
+}
+
+.syo_4-1, .syo_4-2, .syo_4-3, p#sugara{
+    margin-left: 20px;
+}
+
+#oiwai{
+    margin-left: 0;
+}
+
+#syo_bun1, #syo_bun2, #syo_bun3{
+    margin-right: 20px;
+}
+
+#syo_bun2{
+    margin-bottom: 30px;
+}
+
+.syo_para6{
+    margin-left: 30px;
+    padding-right: 10px;
+}
+
+#campaign{
+    width:375px
+}
+
+#cam_title h2{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.cam1, .cam2, .cam3, .cam4, .cam5{
+    font-size: 14px;
+}
+
+.cam2{
+    padding-left: 96px;
+}
+
+.Btn_campaign{
+    margin-left: 65px;
+}
+
+#YTtitle h3{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#tyuu{
+    margin-left: 20px;
+}
+
+#YouTube{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#YTsyo_icon{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#YTtitleBs h4{
+    font-size: 22px;
+}
+
+#YTtitleBs{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#YTarigatouBs, #YTyuusyoukinenn{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.YTshorts1 ul{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.YTshorts1 ul li, .YTshorts2 ul li{
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+.YTsyo_long{
+    margin-bottom: 50px;
+}
+
+#animetitle{
+    margin-bottom: 40px;
+}
+
+#f_syodou{
+    background-image: none;
+    background-color: black;
+    font-size: 14px;
+}
+
+.index-1{
+    margin-top: 0px;
+}
+}
